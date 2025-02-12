@@ -1,4 +1,6 @@
-def login():
-    print("User login functionality")
+ if username == "admin" and password == "admin123":
+        print("Login Successful")
+    else:
+        print("Invalid Credentials")
 
-login()
+login("admin", "admin123")
